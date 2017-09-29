@@ -41,10 +41,10 @@ module.exports = {
     styleLightContect: notSupported,
     backgroundColorByName: notSupported,
     backgroundColorByHexString: notSupported,
+    styleAndroidTranslucent: notSupported,
     hide: notSupported,
     show: notSupported,
     _ready:notSupported
 };
 
 require("cordova/exec/proxy").add("StatusBar", module.exports);
-
